@@ -1,0 +1,12 @@
+// Cloudflare configuration — 22 Constanzaa MVP (static SPA)
+// Deploy with: npx wrangler deploy
+{
+  "name": "22-constanzaa-mvp",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    // Native SPA fallback: unmatched routes serve dist/index.html
+    // (covers /, /menu, /book and /menu?dish=<id> deep links).
+    "not_found_handling": "single-page-application"
+  }
+}
