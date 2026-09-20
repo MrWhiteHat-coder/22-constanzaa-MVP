@@ -31,8 +31,8 @@ export const restaurant = {
   },
 
   links: {
-    // VERIFY: replace with the exact Instagram profile URL supplied by the client
-    instagram: 'https://www.instagram.com/22constanzaa',
+    // CLIENT-CONFIRMED official Instagram account
+    instagram: 'https://www.instagram.com/22constanzaa.chennai/',
     // Built from the confirmed address — reliable without needing the exact Maps short link.
     // VERIFY: client may prefer their Google Business Profile link instead.
     maps: `https://www.google.com/maps/search/?api=1&query=${MAPS_QUERY}`,
@@ -70,7 +70,7 @@ export const restaurant = {
 export const fullAddress = `${restaurant.address.line1}, ${restaurant.address.line2}, ${restaurant.address.city}, ${restaurant.address.state} ${restaurant.address.postalCode}`
 
 export const social = {
-  instagramHandle: '@22constanzaa', // VERIFY: confirm exact handle
+  instagramHandle: '@22constanzaa.chennai',
   tagline: 'Seen at 22C',
 }
 

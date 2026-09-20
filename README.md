@@ -105,7 +105,7 @@ Static SPA — deploy `dist/` to any static host.
 | Prices for every dish | `price: null` — hidden until supplied |
 | Opening hours | hidden (`restaurant.hours = null`) |
 | Parking / Wi-Fi info | hidden until confirmed |
-| Instagram URL + handle | placeholder `@22constanzaa` — confirm |
+| Instagram URL + handle | ✔ confirmed: `https://www.instagram.com/22constanzaa.chennai/` |
 | Google Business Profile link | using address-based Maps link — confirm preferred link |
 | Final domain | `22constanzaa.in` placeholder in canonical/OG/share links |
 | Hero photography | currently an original illustration — swap when approved photos arrive |
